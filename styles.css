@@ -1,0 +1,41 @@
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.divider {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  display: inline-block;
+  width: 100%;
+  border-bottom: #007bff solid 2px;
+}
+
+.pr-7 {
+  padding-right: 5rem !important;
+}
+
+.project-title {
+  background: #007bff;
+  color: white;
+  padding: 0.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .pr-7 {
+    padding-right: 0 !important;
+  }
+}
